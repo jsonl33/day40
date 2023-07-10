@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox ?>
+<?import javafx.scene.control.Button ?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="fx.RootController" prefHeight="300" prefWidth="500"
+	alignment="CENTER" spacing="20">
+
+	<children>
+		<Button fx:id="btn01" text="버튼01" />
+		<Button fx:id="btn02" text="버튼02" onAction="#handleBtn2Action" />
+		<Button fx:id="btn03" text="버튼03" />
+	</children>
+
+</HBox>
